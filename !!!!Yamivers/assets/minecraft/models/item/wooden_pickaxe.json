@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/wooden_pickaxe"
+  },
+  "overrides": [
+    { "predicate": {"custom_model_data": 100000}, "model": "item/pickaxes/pick1"},
+    { "predicate": {"custom_model_data": 200000}, "model": "item/pickaxes/pick3"},
+    { "predicate": {"custom_model_data": 300000}, "model": "item/pickaxes/pick4"},
+    { "predicate": {"custom_model_data": 400000}, "model": "item/beta/pick6"}
+	]
+}
