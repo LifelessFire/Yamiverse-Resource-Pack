@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carved_pumpkin",
+  "overrides": [
+    {"predicate": {"custom_model_data": 1}, "model": "item/pets/lizard"},
+	  {"predicate": {"custom_model_data": 2}, "model": "item/armor_sets/bone_set"}
+  ]
+}
